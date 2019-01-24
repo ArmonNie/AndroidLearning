@@ -73,11 +73,15 @@ public class MainActivity extends AppCompatActivity {
                 ("动画测试",
                         "动画的相关",
                         4);
+        ApplicationFunction applicationFunction5 = new ApplicationFunction("简单网络请求测试",
+                "app使用了Rxjava，Retrofit，服务器使用的是WebStorm的一个Node.js程序",
+                5);
 
         applist.add(applicationFunction1);
         applist.add(applicationFunction2);
         applist.add(applicationFunction3);
         applist.add(applicationFunction4);
+        applist.add(applicationFunction5);
     }
 
 }

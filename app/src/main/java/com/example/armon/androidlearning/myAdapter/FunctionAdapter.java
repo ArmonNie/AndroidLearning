@@ -15,6 +15,7 @@ import android.widget.Toast;
 import com.example.armon.androidlearning.R;
 import com.example.armon.androidlearning.activity.AnimationActivity;
 import com.example.armon.androidlearning.activity.HighControllActivity;
+import com.example.armon.androidlearning.activity.NetTest1_Activity;
 import com.example.armon.androidlearning.activity.ShowViewActivity;
 
 import java.util.List;
@@ -58,20 +59,24 @@ public class FunctionAdapter extends ArrayAdapter<ApplicationFunction> {
                 switch(Index)
                 {
                     case 1:
-                        Intent intent = new Intent(getContext(), ShowViewActivity.class);
-                        getContext().startActivity(intent);
+                        Intent intent1 = new Intent(getContext(), ShowViewActivity.class);
+                        startActivity(intent1);
                         break;
                     case 2:
-                        Intent intent1 = new Intent(getContext(), HighControllActivity.class);
-                        getContext().startActivity(intent1);
+                        Intent intent2 = new Intent(getContext(), HighControllActivity.class);
+                        startActivity(intent2);
                         break;
                     case 3:
-                        Intent intent2 = new Intent(getContext(),ViewTestActivity.class);
-                        getContext().startActivity(intent2);
+                        Intent intent3 = new Intent(getContext(),ViewTestActivity.class);
+                        startActivity(intent3);
                         break;
                     case 4:
-                        Intent intent3 = new Intent(getContext(),AnimationActivity.class);
-                        getContext().startActivity(intent3);
+                        Intent intent4 = new Intent(getContext(),AnimationActivity.class);
+                        startActivity(intent4);
+                        break;
+                    case 5:
+                        Intent intent5 = new Intent(getContext(), NetTest1_Activity.class);
+                        startActivity(intent5);
                         break;
                     default:
                         Toast.makeText(getContext(), "未找到命令", Toast.LENGTH_SHORT).show();
@@ -81,4 +86,10 @@ public class FunctionAdapter extends ArrayAdapter<ApplicationFunction> {
         });
         return view;
     }
+
+    private void startActivity(Intent intent)
+    {
+        getContext().startActivity(intent);
+    }
+
 }

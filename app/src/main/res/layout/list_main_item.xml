@@ -19,9 +19,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/listitem_name"
+            android:layout_toLeftOf="@+id/listitem_btn"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="8dp"
             android:textSize="15dp"
             android:text="这是功能测试的内容描述"
-            android:layout_marginLeft="8dp"/>
+            />
 
         <Button
             android:id="@+id/listitem_btn"

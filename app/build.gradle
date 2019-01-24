@@ -19,6 +19,20 @@ android {
 }
 
 dependencies {
+    /*
+    额外添加的依赖
+     */
+    //compile 'com.jakewharton:butterknife:7.0.1'
+    //compile 'com.squareup.retrofit2:retrofit:2.0.0'             // 会引用 okHttp
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0'       // 会引用 Gson
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0'       // 会引用 RxJava
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    //compile 'io.reactivex:rxandroid:1.1.0'
+    //compile 'com.github.bumptech.glide:glide:3.7.0'
+
+    /*
+    原本依赖
+     */
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
