@@ -1,6 +1,7 @@
 package com.example.armon.androidlearning.myInterface;
 
 import com.example.armon.androidlearning.mybean.ListResponse;
+import com.example.armon.androidlearning.mybean.Response;
 import com.example.armon.androidlearning.mybean.User;
 
 import java.util.Map;

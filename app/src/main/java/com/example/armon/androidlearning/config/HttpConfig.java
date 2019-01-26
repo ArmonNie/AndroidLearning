@@ -6,5 +6,5 @@ package com.example.armon.androidlearning.config;
  */
 
 public class HttpConfig {
-    public static final String BASE_URL = "http://localhost:1995/";
+    public static final String BASE_URL = "http://192.168.2.106:1995/";
 }
