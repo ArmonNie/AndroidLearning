@@ -15,6 +15,7 @@ import android.widget.Toast;
 import com.example.armon.androidlearning.R;
 import com.example.armon.androidlearning.activity.AnimationActivity;
 import com.example.armon.androidlearning.activity.HighControllActivity;
+import com.example.armon.androidlearning.activity.MapActivity;
 import com.example.armon.androidlearning.activity.NetTest1_Activity;
 import com.example.armon.androidlearning.activity.ShowViewActivity;
 
@@ -77,6 +78,10 @@ public class FunctionAdapter extends ArrayAdapter<ApplicationFunction> {
                     case 5:
                         Intent intent5 = new Intent(getContext(), NetTest1_Activity.class);
                         startActivity(intent5);
+                        break;
+                    case 6:
+                        Intent intent6 = new Intent(getContext(), MapActivity.class);
+                        startActivity(intent6);
                         break;
                     default:
                         Toast.makeText(getContext(), "未找到命令", Toast.LENGTH_SHORT).show();

@@ -76,12 +76,16 @@ public class MainActivity extends AppCompatActivity {
         ApplicationFunction applicationFunction5 = new ApplicationFunction("简单网络请求测试",
                 "app使用了Rxjava，Retrofit，服务器使用的是WebStorm的一个Node.js程序",
                 5);
+        ApplicationFunction applicationFunction6 = new ApplicationFunction("百度地图功能学习",
+                "app使用了百度地图的SDK，添加地图标，实现定位以及导航功能等",
+                6);
 
         applist.add(applicationFunction1);
         applist.add(applicationFunction2);
         applist.add(applicationFunction3);
         applist.add(applicationFunction4);
         applist.add(applicationFunction5);
+        applist.add(applicationFunction6);
     }
 
 }
