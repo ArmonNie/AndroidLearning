@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.armon.androidlearning.activity.CameraActivity">
+
+    <Button
+        android:id="@+id/btn_startcamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startCamera"/>
+    <Button
+        android:id="@+id/btn_startrecognize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startRecognize"/>
+    <ImageView
+        android:id="@+id/camera_tempimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/welcome"
+        android:scaleType="fitXY"/>
+</LinearLayout>

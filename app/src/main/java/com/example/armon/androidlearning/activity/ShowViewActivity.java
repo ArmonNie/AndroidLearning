@@ -5,6 +5,10 @@ import android.os.Bundle;
 
 import com.example.armon.androidlearning.R;
 
+
+/*
+本活动展示一些基础以及中级控件
+ */
 public class ShowViewActivity extends AppCompatActivity {
 
     @Override

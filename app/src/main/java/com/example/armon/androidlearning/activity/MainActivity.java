@@ -79,6 +79,14 @@ public class MainActivity extends AppCompatActivity {
         ApplicationFunction applicationFunction6 = new ApplicationFunction("百度地图功能学习",
                 "app使用了百度地图的SDK，添加地图标，实现定位以及导航功能等",
                 6);
+        ApplicationFunction applicationFunction7 = new ApplicationFunction(
+               "android相机",
+                "Android相机调用（注意版本的之间的兼容问题），相机调用人脸识别",
+                7);
+        ApplicationFunction applicationFunction8 = new ApplicationFunction(
+                "我的自定义View",
+                "显示自己画的一些自定义View",
+                8);
 
         applist.add(applicationFunction1);
         applist.add(applicationFunction2);
@@ -86,6 +94,8 @@ public class MainActivity extends AppCompatActivity {
         applist.add(applicationFunction4);
         applist.add(applicationFunction5);
         applist.add(applicationFunction6);
+        applist.add(applicationFunction7);
+        applist.add(applicationFunction8);
     }
 
 }

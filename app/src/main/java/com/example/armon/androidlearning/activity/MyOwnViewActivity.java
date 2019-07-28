@@ -5,14 +5,11 @@ import android.os.Bundle;
 
 import com.example.armon.androidlearning.R;
 
-/*
-本activity展示高级控件
- */
-public class HighControllActivity extends AppCompatActivity {
+public class MyOwnViewActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_high_controll);
+        setContentView(R.layout.activity_my_own_view);
     }
 }

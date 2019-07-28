@@ -3,4 +3,9 @@
     <!--见网络功能-->
     <string name="responsebody">ResponseBody:%s</string>
     <string name="startLocate">开始定位</string>
+    <!--见人脸识别功能-->
+    <string name="startCamera">启动相机</string>
+    <string name="startRecognize">开始识别</string>
+    <!--见自定义View功能-->
+    <string name="myownviewactivitydesc">自定义的View的展示显示</string>
 </resources>

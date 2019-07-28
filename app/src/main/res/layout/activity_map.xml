@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.armon.androidlearning.activity.MapActivity">
 
-    <com.baidu.mapapi.map.MapView
-        android:id="@+id/bmapView"
+    <FrameLayout
+        android:id="@+id/map_frame"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:clickable="true" />
+        android:layout_height="450dp">
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/bmapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true" />
+    </FrameLayout>
     <Button
         android:id="@+id/btn_startLocate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/startLocate"
         android:background="@color/colorPrimary"
-        android:layout_gravity="bottom"/>
+        android:layout_below="@+id/map_frame" />
 
-</FrameLayout>
+</RelativeLayout>
